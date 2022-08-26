@@ -1,11 +1,11 @@
-from cgitb import html
-from ctypes.wintypes import RGB
-from turtle import color
+#from cgitb import html
+#from ctypes.wintypes import RGB
+#from turtle import color
 import streamlit as st
 import pydeck as pdk
 import pandas as pd
 import math
-from io import BytesIO
+#from io import BytesIO
 
 
 
@@ -42,4 +42,4 @@ r = pdk.Deck(layers=[layer],tooltip=tooltip,initial_view_state=view_state)
 st.write(r)
 
 
-st.download_button("map_offline", data=html, file_name="of_ma.html")
+#st.download_button("map_offline", data=html, file_name="of_ma.html")
