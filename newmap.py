@@ -18,13 +18,13 @@ layer = pdk.Layer(
     opacity=0.8,
     stroked=True,
     filled=True,
-    radius_scale=600,
+    radius_scale=300,
     radius_min_pixels=5,
     radius_max_pixels=15,
     line_width_min_pixels=1,
     get_position=['long', 'lat'],
     #get_radius="exits_radius",
-    get_fill_color=[255, 140, 0],
+    get_fill_color=[200, 140, 120],
     get_line_color=[0, 0, 0],
     
 )
