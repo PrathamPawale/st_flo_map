@@ -1,6 +1,6 @@
 district,lat,long,severity
 Thiruvananthapuram,8.525,76.924,low
-ShaniwarWada,18.519473886495206,73.85542129602962,Count:136
+ShaniwarWada,18.519473886495206,73.85542129602962,Actual_Count:136  Predicted_count:154
 Kollam,8.882,76.607,high
 Pathanamthitta,9.264,76.786,high
 Alappuzha,9.492,76.332,med
